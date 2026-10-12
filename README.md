@@ -27,3 +27,9 @@ Welcome to my hands-on React learning repository! Here I document core concepts,
 - `src/` - Contains all our working React code.
 - `src/App.jsx` - The main root component of our application.
 - `src/main.jsx` - The entry point that connects React to the HTML file.
+
+### Core Concepts
+
+- **Components:** Reusable building blocks of a React UI. Must start with a capital letter and return JSX.
+- **JSX:** A syntax extension for JavaScript that looks like HTML.
+- **Props (Properties):** Arguments passed into React components via attributes to make them dynamic and reusable. Props are read-only!
