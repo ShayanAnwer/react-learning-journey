@@ -15,6 +15,15 @@ Welcome to my hands-on React learning repository! Here I document core concepts,
 
 ---
 
-## 📌 Phase 1: React Fundamentals
+## 📌 Phase 1: React Fundamentals & Setup
 
-_(Notes coming soon!)_
+### Vite Setup Commands
+
+- `npm create vite@latest <app-name> -- --template react` - Creates a modern React app scaffold.
+- `npm run dev` - Starts the local development server (usually at `http://localhost:5173/`).
+
+### Folder Structure Overview
+
+- `src/` - Contains all our working React code.
+- `src/App.jsx` - The main root component of our application.
+- `src/main.jsx` - The entry point that connects React to the HTML file.
