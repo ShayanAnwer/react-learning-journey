@@ -33,3 +33,11 @@ Welcome to my hands-on React learning repository! Here I document core concepts,
 - **Components:** Reusable building blocks of a React UI. Must start with a capital letter and return JSX.
 - **JSX:** A syntax extension for JavaScript that looks like HTML.
 - **Props (Properties):** Arguments passed into React components via attributes to make them dynamic and reusable. Props are read-only!
+
+## 📌 Phase 2: State & Interactivity
+
+### State with `useState`
+
+- **State:** Component memory that holds data changing over time. Changing state triggers a re-render.
+- **Syntax:** `const [state, setState] = useState(initialValue);`
+- **Rule:** Never mutate state directly (e.g., `count = 5`). Always use the updater function (`setCount(5)`).
