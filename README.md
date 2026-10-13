@@ -41,3 +41,5 @@ Welcome to my hands-on React learning repository! Here I document core concepts,
 - **State:** Component memory that holds data changing over time. Changing state triggers a re-render.
 - **Syntax:** `const [state, setState] = useState(initialValue);`
 - **Rule:** Never mutate state directly (e.g., `count = 5`). Always use the updater function (`setCount(5)`).
+
+- **Component State Isolation:** Each instance of a component manages its own state independently. Changing state in one component instance does not affect another instance of the same component.
